@@ -1,3 +1,4 @@
+//Keeps track of the current score, score is incremented when a bird successfully passes through a pipe.
 module ScoreCounterLogic (clk, reset, done, finalObsRight1, finalObsRight2, finalObsRight3,
 score);
     input logic clk, reset, done; 
