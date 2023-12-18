@@ -1,6 +1,8 @@
+//Tracks the current game state.
 //clk: Clock input 
 //reset: Will reset the game state to OVER
 //collision: True if there is a collision;
+//Output:
 //done: True if there is a collision; 
 module GameStateTracker (clk, reset, collision, done, up);
     input logic clk, reset, collision, up;
