@@ -1,3 +1,5 @@
+//Data FlipFlop with reset
+//Reset will reset the value to zero
 module D_FF (q, d, reset, clk);
 	output reg q;
 	input d, reset, clk;
