@@ -1,3 +1,4 @@
+//Determines whether the bird has collided with an obstacle
 import Constants::*;
 module CollisionUnit (reset, birdTop, birdBot, birdLeft, birdRight,
 finalYBot1, finalYTop1, finalObsLeft1, finalObsRight1,
