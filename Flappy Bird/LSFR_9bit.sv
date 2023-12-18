@@ -1,3 +1,5 @@
+//Nine bit linear feedback register
+//reset sets the lsfr to zero
 module LSFR_9bit (
     input logic clock,
     input logic reset,
