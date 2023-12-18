@@ -4,7 +4,7 @@ package Constants;
     parameter SCREEN_HEIGHT = 9'd480;
     parameter SCREEN_WIDTH = 10'd640;
 
-    //Obstacle sizes
+    //Obstacle
     parameter OBSTACLE_MIN_Y = 6'd50;
     parameter OBSTACLE_MAX_Y = 8'd200;
     parameter OBSTACLE_MAX_DISTANCE = 10'd680;
@@ -16,10 +16,10 @@ package Constants;
     parameter OBSTACLE_STARTING_DISTANCE2 = 9'd350; 
     parameter OBSTACLE_STARTING_DISTANCE3 = 9'd500; 
 
-    //Bird Width
+    //Bird
     parameter BIRD_STARTING_HEIGHT = 8'd240;
     parameter BIRD_STARTING_DISTANCE = 7'd80; //left
     parameter BIRD_WIDTH = 6'd40; 
-	 parameter BIRD_MAX_HEIGHT = 9'd460;
-	 parameter BIRD_MIN_HEIGHT = 5'd20;
+    parameter BIRD_MAX_HEIGHT = 9'd460;
+    parameter BIRD_MIN_HEIGHT = 5'd20;
 endpackage
