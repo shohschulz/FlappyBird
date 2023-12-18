@@ -1,4 +1,4 @@
-
+//Edits the values generated in the bird module to be usable for our driver and collision logic
 module VideoBird(bird_height, BirdLeft, BirdRight, BirdTop, BirdBot);
   input logic [8:0] bird_height;
   output logic [9:0] BirdLeft, BirdRight;
