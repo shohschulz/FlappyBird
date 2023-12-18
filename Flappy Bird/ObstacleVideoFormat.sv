@@ -1,7 +1,9 @@
-import Constants::*;
 //This module edits the inputs from the obstacle module to generate obstacle dimensions/locations
 //that work with our VGA monitor (640x480).
 //Top left bit is 0x0
+
+import Constants::*;
+
 module ObstacleVideoFormat (x, yBot, yTop, finalObsLeft, finalObsRight,
 finalYBot, finalYTop);
     input logic [9:0] x;
